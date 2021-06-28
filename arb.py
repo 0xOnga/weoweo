@@ -20,7 +20,7 @@ async def arbloop():
 
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
-    channel = client.get_channel(850734532209410059) 
+    channel = client.get_channel() 
 
     embed=discord.Embed(title=("Orario ",current_time) , color=discord.Color.dark_green())
 
